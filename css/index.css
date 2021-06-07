@@ -1,0 +1,261 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.bg{
+    z-index: 1;
+    height: 100%;
+    background: url("../images/白砖.jpg");
+    background-position: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    /*filter: blur(5px);*/
+}
+.content{
+    z-index: 10;
+    position: relative;
+}
+.heng img{
+    position: relative;
+    z-index: 15;
+    display: block;
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+.one{
+    z-index: 5;
+    position: absolute;
+    top: 255px;
+    left: 310px;
+}
+
+.two{
+    z-index: 5;
+    position: absolute;
+    top: 176px;
+    left: 520px;
+}
+
+.three{
+    z-index: 5;
+    position: absolute;
+    top: 265px;
+    left: 765px;
+}
+
+.four{
+    z-index: 5;
+    position: absolute;
+    top: 231px;
+    left: 981px;
+}
+
+.five{
+    z-index: 5;
+    position: absolute;
+    top: 168px;
+    left: 1179px;
+}
+.six{
+    z-index: 5;
+    position: absolute;
+    top: 219px;
+    left: 1421px;
+}
+
+.member>a{
+    position: relative;
+}
+.member>a>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.member>a>p{
+    font-size: 22px;
+    font-weight: 600;
+    color: wheat;
+    text-shadow: 0 0 5px black;
+    position: absolute;
+    bottom: -84px;
+    left: 52px;
+}
+.member>a>div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+@keyframes dou1{
+    0%{
+        transform: rotate(-2deg);
+    }
+    25%{
+        transform: rotate(3deg);
+    }
+    50%{
+        transform: rotate(-2deg);
+    }
+    75%{
+        transform: rotate(-7deg);
+    }
+    100%{
+        transform: rotate(-2deg);
+    }
+}
+.member-one:hover{
+    animation: dou1 1s linear infinite alternate;
+}
+.member-one{
+    z-index: 3;
+    position: absolute;
+    top: 425px;
+    left: 291px;
+    transform-origin: 103px 23px;
+    transform: rotate(-2deg);
+}
+@keyframes dou2{
+    0%{
+        transform: rotate(-35deg);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    50%{
+        transform: rotate(-35deg);
+    }
+    75%{
+        transform: rotate(-40deg);
+    }
+    100%{
+        transform: rotate(-35deg);
+    }
+}
+.member-two:hover{
+    animation: dou2 1s linear infinite alternate;
+}
+.member-two{
+    z-index: 3;
+    position: absolute;
+    top: 354px;
+    left: 483px;
+    transform-origin: 103px 23px;
+    transform: rotate(-35deg);
+}
+@keyframes dou3{
+    0%{
+        transform: rotate(-5deg);
+    }
+    25%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(-5deg);
+    }
+}
+.member-three:hover{
+    animation: dou3 1s linear infinite alternate;
+}
+.member-three{
+    z-index: 3;
+    position: absolute;
+    top: 440px;
+    left: 736px;
+    transform-origin: 103px 23px;
+    transform: rotate(-5deg);
+}
+@keyframes dou4{
+    0%{
+        transform: rotate(-28deg);
+    }
+    25%{
+        transform: rotate(-23deg);
+    }
+    50%{
+        transform: rotate(-28deg);
+    }
+    75%{
+        transform: rotate(-33deg);
+    }
+    100%{
+        transform: rotate(-28deg);
+    }
+}
+.member-four:hover{
+    animation: dou4 1s linear infinite alternate;
+}
+.member-four{
+    z-index: 3;
+    position: absolute;
+    top: 405px;
+    left: 950px;
+    transform-origin: 103px 23px;
+    transform: rotate(-28deg);
+}
+@keyframes dou5{
+    0%{
+        transform: rotate(-8deg);
+    }
+    5%{
+        transform: rotate(-3deg);
+    }
+    50%{
+        transform: rotate(-8deg);
+    }
+    75%{
+        transform: rotate(-13deg);
+    }
+    100%{
+        transform: rotate(-8deg);
+    }
+}
+.member-five:hover{
+    animation: dou5 1s linear infinite alternate;
+}
+.member-five{
+    z-index: 3;
+    position: absolute;
+    top: 345px;
+    left: 1150px;
+    transform-origin: 103px 23px;
+    transform: rotate(-8deg);
+}
+@keyframes dou6{
+    0%{
+        transform: rotate(-14deg);
+    }
+    5%{
+        transform: rotate(-9deg);
+    }
+    50%{
+        transform: rotate(-14deg);
+    }
+    75%{
+        transform: rotate(-19deg);
+    }
+    100%{
+        transform: rotate(-14deg);
+    }
+}
+.member-six:hover{
+    animation: dou6 1s linear infinite alternate;
+}
+.member-six{
+    z-index: 3;
+    position: absolute;
+    top: 393px;
+    left: 1391px;
+    transform-origin: 103px 23px;
+    transform: rotate(-14deg);
+}

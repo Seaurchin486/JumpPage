@@ -1,0 +1,18 @@
+*{margin: 0;padding: 0;}/*样式重置*/
+ul{
+    overflow: hidden;
+}
+ul>*{
+    float: left;
+}
+li{
+    list-style: none;/*去除默认标点*/
+}
+a{
+    color: black;
+    text-decoration: none;/*去除下划线*/
+}
+input[type=text]{
+    border: none;
+    outline: none;
+}
